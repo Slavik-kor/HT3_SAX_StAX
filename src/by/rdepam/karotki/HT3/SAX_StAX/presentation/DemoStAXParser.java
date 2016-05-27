@@ -8,10 +8,9 @@ import java.util.List;
 import javax.xml.stream.XMLInputFactory;
 import javax.xml.stream.XMLStreamReader;
 
+import by.rdepam.karotki.HT3.SAX_StAX.controller.StAXProcessing;
 import by.rdepam.karotki.HT3.SAX_StAX.domain.Category;
 import by.rdepam.karotki.HT3.SAX_StAX.domain.Dish;
-
-import by.rdepam.karotki.HT3.SAX_StAX.domain.StAXProcessing;
 
 
 public class DemoStAXParser {

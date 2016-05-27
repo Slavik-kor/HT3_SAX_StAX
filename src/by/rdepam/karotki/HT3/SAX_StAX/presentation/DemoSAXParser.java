@@ -8,9 +8,9 @@ import org.xml.sax.SAXException;
 import org.xml.sax.XMLReader;
 import org.xml.sax.helpers.XMLReaderFactory;
 
+import by.rdepam.karotki.HT3.SAX_StAX.controller.MenuSAXHandler;
 import by.rdepam.karotki.HT3.SAX_StAX.domain.Category;
 import by.rdepam.karotki.HT3.SAX_StAX.domain.Dish;
-import by.rdepam.karotki.HT3.SAX_StAX.domain.MenuSAXHandler;
 
 public class DemoSAXParser {
 

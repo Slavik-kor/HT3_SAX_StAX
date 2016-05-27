@@ -1,10 +1,14 @@
-package by.rdepam.karotki.HT3.SAX_StAX.domain;
+package by.rdepam.karotki.HT3.SAX_StAX.controller;
 
 import java.util.ArrayList;
 
 import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
+
+import by.rdepam.karotki.HT3.SAX_StAX.domain.Category;
+import by.rdepam.karotki.HT3.SAX_StAX.domain.Dish;
+import by.rdepam.karotki.HT3.SAX_StAX.domain.MenuTagName;
 
 public class MenuSAXHandler extends DefaultHandler{
 	private ArrayList<Category> categories=new ArrayList<Category>();
